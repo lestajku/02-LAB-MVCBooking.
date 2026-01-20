@@ -11,7 +11,6 @@ namespace MVCBooking.Controllers
         {
             return View(bookings);
         }
-
         public IActionResult Create()
         {
             return View();
